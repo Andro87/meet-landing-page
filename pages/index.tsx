@@ -46,8 +46,8 @@ export default function Home() {
             </div>
             <div
                 className={styles.img_container}
-                role="section"
-                aria-aria-labelledby="supporting images"
+                role="img"
+                aria-label="supporting images"
             >
                 <img src="/image/desktop/image-woman-in-videocall.jpg" alt="" />
 
