@@ -34,13 +34,21 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className={styles.number_container} role="region">
+            <div
+                className={styles.number_container}
+                role="region"
+                aria-labelledby="number_one"
+            >
                 <div className={styles.line}></div>
                 <div className={styles.number}>
                     <p>01</p>
                 </div>
             </div>
-            <div className={styles.img_container} role="img">
+            <div
+                className={styles.img_container}
+                role="section"
+                aria-aria-labelledby="supporting images"
+            >
                 <img src="/image/desktop/image-woman-in-videocall.jpg" alt="" />
 
                 <img
@@ -65,6 +73,7 @@ export default function Home() {
             <div
                 className={`${styles.number_container} ${styles.position}`}
                 role="region"
+                aria-labelledby="number_two"
             >
                 <div className={styles.line}></div>
                 <div className={styles.number}>
