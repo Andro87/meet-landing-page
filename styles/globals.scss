@@ -1,0 +1,67 @@
+@import "./variables.scss";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "red";
+    src: url("../public/fonts/RedHatDisplay-Black.ttf");
+    font-weight: 900;
+}
+@font-face {
+    font-family: "red";
+    src: url("../public/fonts/RedHatDisplay-Medium.ttf");
+    font-weight: 500;
+}
+:root {
+    --Blue: hsla(192, 37%, 48%, 1);
+    --Violet: hsla(268, 34%, 53%, 1);
+    --Navy: hsla(240, 21%, 20%, 1);
+    --Grey: hsla(240, 10%, 57%, 1);
+    --LightBlue: hsla(192, 90%, 77%, 1);
+    --LightViolet: hsla(268, 100%, 86%, 1);
+    --White: hsla(0, 0%, 98%, 1);
+}
+html {
+    font-size: 16px;
+}
+h1,
+h2 {
+    font-family: "red";
+    font-weight: 900;
+}
+h1 {
+    color: var(--Navy);
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    margin-top: 48px;
+    @media screen and (min-width: $tablet) {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    @media screen and (min-width: $desktop) {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+}
+h2 {
+    font-size: 2rem;
+    line-height: 2.25rem;
+    @media screen and (min-width: $tablet) {
+        font-size: 2.5rem;
+        line-height: 2.75rem;
+    }
+}
+p {
+    font-family: "red";
+    font-weight: 500;
+    color: var(--Grey);
+    font-size: 1rem;
+    line-height: 1.6rem;
+    @media screen and (min-width: $desktop) {
+        font-size: 1.125rem;
+    }
+}

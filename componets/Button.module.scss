@@ -1,0 +1,37 @@
+@import "../styles/variables.scss";
+
+.button {
+    border: none;
+    padding: 16px 29px;
+    border-radius: 30px;
+    color: var(--White);
+    background-color: var(--Violet);
+    font-family: "red";
+    font-weight: 900;
+    font-size: 1rem;
+    span {
+        margin-left: 5px;
+    }
+    &:hover {
+        background: hsla(267, 54%, 71%, 1);
+        cursor: pointer;
+    }
+}
+
+.blue {
+    background-color: var(--Blue);
+    margin-bottom: 16px;
+    @media screen and (min-width: $tablet) {
+        margin-bottom: 0;
+        margin-right: 16px;
+    }
+    &:hover {
+        background: hsla(192, 54%, 64%, 1);
+    }
+}
+.violet {
+    color: var(--LightViolet);
+}
+.lightblue {
+    color: var(--LightBue);
+}
