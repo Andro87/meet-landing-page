@@ -34,13 +34,13 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className={styles.number_container}>
+            <div className={styles.number_container} role="region">
                 <div className={styles.line}></div>
                 <div className={styles.number}>
                     <p>01</p>
                 </div>
             </div>
-            <div className={styles.img_container}>
+            <div className={styles.img_container} role="img">
                 <img src="/image/desktop/image-woman-in-videocall.jpg" alt="" />
 
                 <img
@@ -52,7 +52,7 @@ export default function Home() {
 
                 <img src="/image/desktop/image-man-texting.jpg" alt="" />
             </div>
-            <div className={styles.section_info}>
+            <div className={styles.section_info} role="complementary">
                 <p className={styles.blu_txt}> BUILT FOR MODERN USE</p>
                 <h2> Smarter meetings, all in one place</h2>
                 <p>
@@ -62,7 +62,10 @@ export default function Home() {
                     export.
                 </p>
             </div>
-            <div className={`${styles.number_container} ${styles.position}`}>
+            <div
+                className={`${styles.number_container} ${styles.position}`}
+                role="region"
+            >
                 <div className={styles.line}></div>
                 <div className={styles.number}>
                     <p>02</p>
