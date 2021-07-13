@@ -37,7 +37,7 @@ export default function Home() {
             <div
                 className={styles.number_container}
                 role="region"
-                aria-labelledby="number_one"
+                aria-label="one"
             >
                 <div className={styles.line}></div>
                 <div className={styles.number}>
@@ -73,7 +73,7 @@ export default function Home() {
             <div
                 className={`${styles.number_container} ${styles.position}`}
                 role="region"
-                aria-labelledby="number_two"
+                aria-label="two"
             >
                 <div className={styles.line}></div>
                 <div className={styles.number}>
